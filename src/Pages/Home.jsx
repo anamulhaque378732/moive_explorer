@@ -3,7 +3,7 @@ import MoviePoster from "../assets/image.png";
 const Home = () => {
   return (
     <div
-      className="hero min-h-screen md:mt-10 mt-4 "
+      className="hero min-h-screen md:mt-10 mt-4 rounded-2xl "
       style={{
         backgroundImage: `url(${MoviePoster})`,
       }}

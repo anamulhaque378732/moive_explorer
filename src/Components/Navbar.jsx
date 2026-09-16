@@ -7,9 +7,6 @@ const Navbar = () => {
       <li>
         <NavLink to="movieCard"> Moive List</NavLink>
       </li>
-      <li>
-        <NavLink to="/"> New Movies </NavLink>
-      </li>
     </>
   );
   return (
@@ -40,7 +37,7 @@ const Navbar = () => {
             {links}
           </ul>
         </div>
-        <Link to="/" className="btn   text-xl">
+        <Link to="/" className="btn text-xl">
           <Logo></Logo>
         </Link>
       </div>

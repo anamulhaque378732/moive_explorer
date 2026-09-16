@@ -1,7 +1,8 @@
 import { createBrowserRouter } from "react-router";
 import RootLoyout from "../Layouts/RootLoyout";
 import Home from "../Pages/Home";
-import MoiveCard from "../Components/Moive/MoiveCard";
+
+import AllMoive from "../Components/Moive/AllMoive";
 import ErrorElement from "../Components/ErrorElement";
 
 export const router = createBrowserRouter([
@@ -16,7 +17,7 @@ export const router = createBrowserRouter([
       },
       {
         path: "/movieCard",
-        Component: MoiveCard,
+        Component: AllMoive,
       },
     ],
   },
