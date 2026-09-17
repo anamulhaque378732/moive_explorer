@@ -36,7 +36,7 @@ const AllMoive = () => {
 
   return (
     <div>
-      <h1 className="text-5xl font-bold text-center md:my-5 my-2">
+      <h1 className="text-5xl font-bold text-center md:my-10 my-5">
         All Movies
       </h1>
       <div></div>

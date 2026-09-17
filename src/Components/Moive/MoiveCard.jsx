@@ -4,11 +4,11 @@ const MoiveCard = ({ movie, handleViewDetails }) => {
   const { name, image, rating, genres, ended } = movie;
   return (
     <div className="card  border hover:scale-105   shadow-sm">
-      <figure className="px-10 pt-10">
+      <figure className="my-5">
         <img
           src={image?.medium}
           alt="Movie poster"
-          className="rounded-xl hover:scale-105"
+          className="rounded-xl  hover:scale-105"
         />
       </figure>
       <div className="card-body items-center text-center">

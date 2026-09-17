@@ -1,14 +1,7 @@
-import { Link, NavLink } from "react-router";
+import { Link } from "react-router";
 import Logo from "./Logo";
 
 const Navbar = () => {
-  const links = (
-    <>
-      <li>
-        <NavLink to="movieCard"> Moive List</NavLink>
-      </li>
-    </>
-  );
   return (
     <div className="navbar bg-base-100   shadow-sm">
       <div className="navbar-start">
@@ -33,16 +26,14 @@ const Navbar = () => {
           <ul
             tabIndex={-1}
             className="menu menu-sm dropdown-content   gap-2  rounded-box z-1 mt-3 w-52 p-2 shadow"
-          >
-            {links}
-          </ul>
+          ></ul>
         </div>
         <Link to="/" className="btn text-xl">
           <Logo></Logo>
         </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal gap-2 px-1">{links}</ul>
+        <ul className="menu menu-horizontal gap-2 px-1"> </ul>
       </div>
       <div className="navbar-end">
         <Link to="/movieCard" className="btn">
