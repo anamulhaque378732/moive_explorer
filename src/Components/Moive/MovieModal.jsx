@@ -64,7 +64,7 @@ const MovieModal = ({ selectedMovie, setSelectedMovie }) => {
             </p>
           </div>
 
-          <div className="flex  justify-between my-2">
+          <div className="flex flex-wrap justify-between my-2">
             <p>Type : {type}</p>
             <p> Runtime : {runtime} </p>
             <p> status : {status} </p>
