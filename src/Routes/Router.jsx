@@ -16,7 +16,7 @@ export const router = createBrowserRouter([
         Component: Home,
       },
       {
-        path: "/movieCard",
+        path: "/movieList",
         Component: AllMoive,
       },
     ],

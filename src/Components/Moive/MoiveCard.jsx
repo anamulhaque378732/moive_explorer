@@ -29,7 +29,7 @@ const MoiveCard = ({ movie, handleViewDetails }) => {
         </div>
         <div className="">
           <p className="flex gap-2">
-            {genres.map((genre, idx) => (
+            {genres?.map((genre, idx) => (
               <span
                 className="bg-fuchsia-700 p-2 hover:bg-secondary hover:scale-105 rounded-xl"
                 key={idx}

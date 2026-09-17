@@ -15,7 +15,7 @@ const Home = () => {
           <p className="mb-5 text-2xl font-medium">
             Explore and discover your favorite movies from around the world.
           </p>
-          <Link to="movieCard" className="btn btn-primary">
+          <Link to="movieList" className="btn btn-primary">
             Moive list
           </Link>
         </div>

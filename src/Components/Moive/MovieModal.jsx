@@ -17,10 +17,20 @@ const MovieModal = ({ selectedMovie, setSelectedMovie }) => {
     status,
     language,
   } = selectedMovie;
+  console.log(selectedMovie);
 
   return (
     <>
-      <dialog open id="my_modal_4" className="modal">
+      <dialog
+        onClick={(e) => {
+          if (e.target === e.currentTarget) {
+            setSelectedMovie(null);
+          }
+        }}
+        open
+        id="my_modal_4"
+        className="modal"
+      >
         <div className="modal-box w-11/12 max-w-5xl">
           <button
             onClick={() => setSelectedMovie(null)}
@@ -67,7 +77,7 @@ const MovieModal = ({ selectedMovie, setSelectedMovie }) => {
           <div className="modal-action">
             <form method="dialog">
               <button className="btn" onClick={() => setSelectedMovie(null)}>
-                Cancel
+                X Close
               </button>
             </form>
           </div>
